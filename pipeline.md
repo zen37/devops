@@ -1,4 +1,4 @@
-### ** Azure DevOps Pipelines **
+### **Azure DevOps Pipelines**
 ```
 Pipeline → Stages → Jobs → Steps (Tasks/Scripts)
 ```
