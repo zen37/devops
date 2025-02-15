@@ -1,4 +1,4 @@
-### **Yes! In Azure DevOps Pipelines, the structure follows this hierarchy:**
+### ** Azure DevOps Pipelines **
 ```
 Pipeline → Stages → Jobs → Steps (Tasks/Scripts)
 ```
@@ -232,8 +232,7 @@ pr:
 
 ---
 
-### **Should Tests Run in a Separate Stage? (Best Practices)**
-Yes! **Best practices recommend running tests in a separate stage** rather than in the same `Build` stage.  
+**Best practices recommend running tests in a separate stage** rather than in the same `Build` stage.  
 
 ### **Why?**
 ✅ **Stages run sequentially, ensuring the build is complete before testing starts.**  
